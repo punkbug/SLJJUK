@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFD29DC52F9F2AB3007D4019 /* temp in Resources */ = {isa = PBXBuildFile; fileRef = BFD29DC42F9F2AAA007D4019 /* temp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BFD29D8B2F9F16BD007D4019 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +28,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFCB41B12F9F5A0000159F5F /* SLJJUK.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = SLJJUK.app; sourceTree = "<group>"; };
 		BFD29D792F9F16B9007D4019 /* SLJJUK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLJJUK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD29D8A2F9F16BD007D4019 /* SLJJUKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLJJUKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD29D942F9F16BD007D4019 /* SLJJUKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLJJUKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD29DC42F9F2AAA007D4019 /* temp */ = {isa = PBXFileReference; lastKnownFileType = text; path = temp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BFD29DC32F9F1B32007D4019 /* Exceptions for "SLJJUK" folder in "SLJJUK" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BFD29D782F9F16B9007D4019 /* SLJJUK */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BFD29D7B2F9F16B9007D4019 /* SLJJUK */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BFD29DC32F9F1B32007D4019 /* Exceptions for "SLJJUK" folder in "SLJJUK" target */,
+			);
 			path = SLJJUK;
 			sourceTree = "<group>";
 		};
@@ -79,6 +98,8 @@
 				BFD29D8D2F9F16BD007D4019 /* SLJJUKTests */,
 				BFD29D972F9F16BD007D4019 /* SLJJUKUITests */,
 				BFD29D7A2F9F16B9007D4019 /* Products */,
+				BFD29DC42F9F2AAA007D4019 /* temp */,
+				BFCB41B12F9F5A0000159F5F /* SLJJUK.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD29DC52F9F2AB3007D4019 /* temp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,12 +421,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SLJJUK/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLJJUK/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = punkbug.SLJJUK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -424,12 +449,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SLJJUK/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLJJUK/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = punkbug.SLJJUK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
