@@ -17,6 +17,11 @@
 -   **배경 실행 모드**: Dock 아이콘 없이 메뉴바에서만 동작하는 Agent 모드(`LSUIElement`) 지원.
 -   **데이터 영속성**: `UserDefaults`를 통해 앱 재시작 후에도 관심 종목 리스트가 유지됩니다.
 
+## 설치방법
+
+- SLJJUK.dmg 파일 직접 다운로드
+- 이미지 마운트 후 SLJJUK 아이콘을 Applications 아이콘으로 드래그 후 드롭
+
 ## 🛠 기술 스택
 
 -   **Language**: Swift 5.10+
