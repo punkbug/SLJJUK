@@ -26,6 +26,11 @@
 -   **OS Support**: macOS 13.0 (Ventura) 이상
 -   **IDE**: Xcode 16.2
 
+## 다운로드
+
+-  설치용 디스크이미지(SLJJUK.dmg)
+
+
 ## 📂 프로젝트 구조
 
 ```text
